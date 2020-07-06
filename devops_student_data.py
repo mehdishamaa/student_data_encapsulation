@@ -22,9 +22,14 @@ class Devops(Student):
 
 # The above function 'change_course' is hidden because it has two underscores in front of it. This makes the function hidden because this is not a method we would need to use often.
 
-m = Student("Mehdi", "21", "DevOps")
 
-m.__change_course("Data")
+m = Devops("Mehdi", "21", "DevOps")
+
+
+m.change_course("Data")
+
+# print(m._Student__change_course("Data"))
+
 
 
 
